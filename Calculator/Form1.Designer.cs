@@ -35,6 +35,7 @@
             this.txtB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtKetqua = new System.Windows.Forms.TextBox();
+            this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btCong
@@ -97,17 +98,30 @@
             this.txtKetqua.Size = new System.Drawing.Size(255, 29);
             this.txtKetqua.TabIndex = 2;
             // 
+            // btTru
+            // 
+            this.btTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btTru.Location = new System.Drawing.Point(242, 177);
+            this.btTru.Margin = new System.Windows.Forms.Padding(6);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(66, 31);
+            this.btTru.TabIndex = 0;
+            this.btTru.Text = "-";
+            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 223);
+            this.ClientSize = new System.Drawing.Size(486, 251);
             this.Controls.Add(this.txtKetqua);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtA);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.btTru);
             this.Controls.Add(this.btCong);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
@@ -127,6 +141,7 @@
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKetqua;
+        private System.Windows.Forms.Button btTru;
     }
 }
 
